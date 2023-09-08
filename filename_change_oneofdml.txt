@@ -1,0 +1,1 @@
+INSERT INTO adp_config_data.cloud_function_file_template (cloud_function_name,file_pattern,dag_name,schema_name,config_name,client_id,webserver_id) values('CF_SupplyChain_DataOnBoard_FilePattern_TrgDag','mypc_user_details_daily_(\\d{14}_\\d+).csv','dag_gcsBqDataOnboard_generic_V1','mypc_user_details_daily_schema.json','mypc_user_details_daily_config.json',<>,<>);
